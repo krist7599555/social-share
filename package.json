@@ -1,6 +1,6 @@
 {
   "name": "@krist7599555/social-share",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "private": false,
   "description": "All social share include facebook, twitter, line",
   "main": "dist/social-share.cjs.js",

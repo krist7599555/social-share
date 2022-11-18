@@ -30,7 +30,7 @@ interface TwitterShareParams {
  * @see Example1 {@link https://twitter.com/intent/tweet?text=lorem&url=https%3A%2F%2Fgoogle.com&hashtags=ht1,ht2,ht3&via=krist7599555}
  * @see Example2 {@link https://twitter.com/intent/tweet?text=lorem&url=howareyoupatani.com&hashtags=ht1,ht2,ht3&via=krist7599555}
  */
-export function tweeter_shared_url(info: TwitterShareParams) {
+export function twitter_shared_url(info: TwitterShareParams) {
   const url = new URL("https://twitter.com/intent/tweet");
   return set_search_params(url, info);
 }
