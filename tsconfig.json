@@ -1,0 +1,7 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "isolatedModules": true /* Ensure that each file can be safely transpiled without relying on other imports. */
+  },
+  "exclude": ["./dist/*"]
+}

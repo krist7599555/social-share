@@ -1,0 +1,24 @@
+{
+  "name": "@krist7599555/social-share",
+  "version": "0.0.2",
+  "description": "All social share include facebook, twitter, line",
+  "main": "dist/social-share.cjs.js",
+  "module": "dist/social-share.esm.js",
+  "preconstruct": {
+    "distFilenameStrategy": "unscoped-package-name"
+  },
+  "scripts": {
+    "build": "preconstruct build",
+    "release": "yarn build && npm publish",
+    "postinstall": "preconstruct dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/preset-typescript": "^7.18.6",
+    "@preconstruct/cli": "^2.2.2",
+    "pnpm": "^7.16.1",
+    "typescript": "^4.9.3"
+  }
+}
