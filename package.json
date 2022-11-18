@@ -1,6 +1,6 @@
 {
   "name": "@krist7599555/social-share",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "private": false,
   "description": "All social share include facebook, twitter, line",
   "main": "dist/social-share.cjs.js",
@@ -10,8 +10,7 @@
   },
   "scripts": {
     "build": "preconstruct build",
-    "release": "pnpm build && npm publish --access=public",
-    "postinstall": "preconstruct dev"
+    "release": "pnpm build && npm publish --access=public"
   },
   "keywords": [
     "share",
